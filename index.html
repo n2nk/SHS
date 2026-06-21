@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbyVs6MIeDDDEbAz_EbjUEu7NnEh5RD_lTeOv-5bVkJIQYOFWucA-E-DD4IZ4i35RCcg/exec">
-    <title>Mengalihkan...</title>
-    <script type="text/javascript">
-        // Skrip cadangan untuk memastikan redirect berjalan di semua browser
-        window.location.href = "https://script.google.com/macros/s/AKfycbyVs6MIeDDDEbAz_EbjUEu7NnEh5RD_lTeOv-5bVkJIQYOFWucA-E-DD4IZ4i35RCcg/exec";
-    </script>
+    <title>Memuat Aplikasi...</title>
+    <style>
+        /* Mengatur agar halaman memenuhi layar dan menghilangkan scrollbar bawaan */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; 
+            background-color: #ffffff;
+        }
+        
+        /* Mengatur iframe agar fullscreen dan responsif */
+        #gas-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <p>Jika Anda tidak dialihkan secara otomatis, silakan <a href="https://script.google.com/macros/s/AKfycbyVs6MIeDDDEbAz_EbjUEu7NnEh5RD_lTeOv-5bVkJIQYOFWucA-E-DD4IZ4i35RCcg/exec">klik di sini</a>.</p>
+
+    <iframe id="gas-iframe" src="https://script.google.com/macros/s/AKfycbyVs6MIeDDDEbAz_EbjUEu7NnEh5RD_lTeOv-5bVkJIQYOFWucA-E-DD4IZ4i35RCcg/exec" allowfullscreen="true">
+        Browser Anda tidak mendukung iframe.
+    </iframe>
+
 </body>
 </html>
